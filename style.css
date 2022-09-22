@@ -1,0 +1,81 @@
+html, body, div, ul, li, h1, h2, h3, a, p {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%
+}
+body{
+    background-color: rgb(240, 240, 240); 
+}
+h1{ 
+    border-bottom: 2px solid black;
+    width: 60px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 125px;
+    padding-bottom: 10px;
+    
+    
+}
+#button {
+    margin: 10px 0 10px 125px;
+    width: 165px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px;
+    border-radius: 5px; 
+}
+#button:hover {
+    cursor: pointer;
+}
+.item {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 4px;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+    margin: 10px 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 20px;
+   
+
+   
+    
+}
+.price {
+position: absolute;
+
+}
+.name {
+ position: absolute;
+ left: 500px;
+  
+}
+.desc {
+    position: absolute;
+    left: 350px;
+    right: 100px;
+    width: 400px;
+    
+}
+.darkModeH1{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white;
+    
+}
+.darkModeItem{
+    background-color: rgb(100, 100, 100);
+    box-shadow: rgba(255, 255, 255, 0.67) 0px 3px 4px;
+    color: white;
+}
+.darkModeBody{
+    background-color: rgb(34, 34, 34); 
+}
+.darkModeButton{
+    color: white;
+    border:white;
+
+}
+
